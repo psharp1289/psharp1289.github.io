@@ -8,6 +8,8 @@
 ############################
 # --- Required options --- #
 ############################
+#add URL
+url: "http://paulsharp.github.io"
 
 # Name of website
 title: Paul Sharp, Ph.D.
