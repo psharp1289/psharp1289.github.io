@@ -3,10 +3,6 @@ layout: page
 title: Bayesian statistics
 ---
 
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 ##### *"Conditional probabilities play an important role in investigating causal questions, as we often want to compare how the probability (or, equivalently, risk) of an outcome changes under different filtering, or exposure, conditions."* - Judea Pearl
 
 The analogy to keep with us when parsing the language of probabilities is a *frequency table.* Here, imagine we're pulling random objects out of a hat, each with a shape and color. The frequency table below lists the number of objects with a given shape and color residing in the hat. From this information, we'll explore notions of conditional probabilities, independence, probability mass and density. 
