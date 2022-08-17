@@ -375,7 +375,7 @@ The most difficult part of estimating posteriors is to solve for the marginal li
 2. **Numerical approximation via a grid of relevant parameters points**
     - The integral is approximated by a sum of several discrete values. This is what we did in the example last class when we dealth with 11 candidate values for $$\theta$$, or the coin's bias. We could have computed the posterior analytically, which just means plugging in one's evidence into an equation to compute the posterior. When in continuous space, one can discretize it by choosing e.g., 1,000 values spanning the full space of 0 to 1 in the beta distribution, and used a weighted sum to approximate the integral. Remember, the integral
 
-The marginal likelihood involves estimating the probability of the data given all relevant parameter settings under consideration. Many models have **multiple parameters**: $$(Data|\theta,\beta,\alpha,\gamma,\delta,\epsilon)$$. 
+The marginal likelihood involves estimating the probability of the data given all relevant parameter settings under consideration. Many models have **multiple parameters**: $$(Data / \theta,\beta,\alpha,\gamma,\delta,\epsilon)$$. 
 
 In this situation, if one uses 1,000 parameter settings for each parameter, **the number of combinations of parameters = $$1000^6$$**, which is a number many computers cannot chug through when approximating an integral numerically.
 
@@ -388,7 +388,7 @@ Sampling $$\theta$$ from the posterior distribution. You do this via an algorith
 
 *(AKA Paul's 5 Step Guide to a Perfect Posterior)*
 
-1. Start with a guess of $$\theta$$ and calculate its $$\theta$$ by computing $$p(Data|\theta)p(\theta)$$. Thus, one still needs to specify a prior and a likleihood function to do MCMC. 
+1. Start with a guess of $$\theta$$ and calculate its $$\theta$$ by computing $$ p(Data / \theta)p(\theta)$$. Thus, one still needs to specify a prior and a likleihood function to do MCMC. 
 
 
 2. Randomly choose a new $$\theta$$ from a "jumping" distribution (also known as a proposal distribution). Jumping just means, am I going to jump to larger or smaller $$\theta$$ value from my current $$\theta$$.
