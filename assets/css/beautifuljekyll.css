@@ -138,8 +138,8 @@ img {
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-custom .navbar-brand {
@@ -158,8 +158,8 @@ img {
 .navbar-custom .navbar-brand-logo,
 .navbar-custom.top-nav-short .navbar-brand-logo,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo {
-  padding-top: 0.5;
-  padding-bottom: 0.5;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
 }
 
 .navbar-custom .navbar-brand-logo img {
@@ -195,7 +195,7 @@ img {
 }
 
 .navbar-toggler {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
@@ -213,13 +213,13 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .navbar-custom .navbar-brand-logo {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 2;
+    padding-bottom: 2;
   }
 
   .navbar-custom .navbar-brand-logo img {
@@ -642,8 +642,8 @@ footer .footer-custom-content {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: 0rem; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 0rem;
+  margin-top: 3rem; /* The small navbar is 50px tall + 1px border */
+  margin-bottom: 3rem;
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
   margin-top: 5rem;
