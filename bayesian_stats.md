@@ -16,20 +16,23 @@ data #print out contigency table
 ```
 
 
-<!-- mathjax config similar to math.stackexchange -->
 <script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  jax: ["input/TeX", "output/HTML-CSS"],
+  MathJax.Hub.Config({
+    jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+TeX: {
+  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+},
   tex2jax: {
-    inlineMath: [ ['$', '$'] ],
-    displayMath: [ ['$$', '$$']],
-    processEscapes: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  },
-  messageStyle: "none",
-  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-});
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
 </script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
 
 <div>
@@ -100,9 +103,9 @@ data.loc['square'] #filter data to only view objects that are squares
 
 ### By conditioning on square, we filter the data and only consider objects that are squares.
 
-We then get the following conditional probability, $$ p(blue|square) = 10/50 = 0.2 $$
+We then get the following conditional probability, $$ \begin p(blue|square) = 10/50 = 0.2 \end $$
 
-We computed this by taking the joint probability $$p(blue \cap square)$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
+We computed this by taking the joint probability $$ \begin p(blue \cap square) \end $$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
 Now, let's assess the marginal probability of $$p(blue)$$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $$p(blue)= \frac{20}{100} = 0.2$$.
 
