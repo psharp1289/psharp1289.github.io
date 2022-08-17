@@ -61,11 +61,11 @@ blockquote p:first-child {
   margin-top: 0;
 }
 hr.small {
-  max-width: 6.25rem;
-  margin: 1rem auto;
-  border-width: 0.25rem;
+  max-width: 0rem;
+  margin: 0rem auto;
+  border-width: 0.0rem;
   border-color: inherit;
-  border-radius: 0.1875rem;
+  border-radius: 0.0rem;
 }
 
 /* fix in-page anchors to not be behind fixed header */
