@@ -70,9 +70,7 @@ data #print out contigency table
 </table>
 </div>
 
-#### How to find the conditional probability
-
-$$p(blue|square)= ?$$.
+### How to find the conditional probability
 
 
 ```python
@@ -88,7 +86,7 @@ data.loc['square'] #filter data to only view objects that are squares
 
 ### By conditioning on square, we filter the data and only consider objects that are squares.
 
-We then get the following conditional probability: $$p(blue|square) = 10/50 = 0.2$$.
+We then get the following conditional probability, $$ p(blue|square) = 10/50 = 0.2 $$
 
 We computed this by taking the joint probability $$p(blue \cap square)$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
