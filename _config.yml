@@ -22,8 +22,9 @@ author: Paul Sharp, Ph.D.
 ###############################################
 
 navbar-links:
+  Home: "psharp1289.github.io"
   About Me: "aboutme"
-  Publications: "https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en"    
+  Research: "research"    
   Twitter: "https://twitter.com/paul_b_sharp"
 
 ################
