@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -139,8 +139,8 @@ img {
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .navbar-custom .navbar-brand {
@@ -159,8 +159,8 @@ img {
 .navbar-custom .navbar-brand-logo,
 .navbar-custom.top-nav-short .navbar-brand-logo,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 .navbar-custom .navbar-brand-logo img {
@@ -172,11 +172,11 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 4.5rem;
+  height: 2.5rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 1.25rem;
   letter-spacing: 0.0625rem;
 }
@@ -185,13 +185,13 @@ img {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 1.25rem;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
 }
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-  font-weight: 400;
+  font-weight: 500;
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
 
@@ -214,17 +214,17 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
   }
 
   .navbar-custom .navbar-brand-logo {
-    padding-top: 2;
-    padding-bottom: 2;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 10.125rem;
+    height: 3.125rem;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
