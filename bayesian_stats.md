@@ -351,7 +351,7 @@ $$\theta^{(a-1)}\,(1-\theta)^{(b-1)} \, / \, B(a,b)$$
 where $$B(a,b)=\int_{0}^{1}{d\theta}\,\theta^{(a-1)}\,(1-\theta)^{(b-1)}$$
 
 
-The mathematical details aren't of much interest, but what is is that the beta *distribution* is different from the beta function. The latter, defined as $$B(a,b)$$ ensures that the probability density function $$\text{beta}(\theta|a,b)$$ integrates to 1 (see point above on probability denisities).
+The mathematical details aren't of much interest, but what is is that the beta *distribution* is different from the beta function. The latter, defined as $$B(a,b)$$ ensures that the probability density function $$B(\theta / a,b)$$ integrates to 1 (see point above on probability denisities).
 
 For more info on using beta distirbution to compute a posterior over likely $$\theta$$ values, see here: https://github.com/aloctavodia/Doing_bayesian_data_analysis/blob/master/05_BernBeta.py
 
