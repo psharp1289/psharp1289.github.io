@@ -353,11 +353,7 @@ where $$B(a,b)=\int_{0}^{1}{d\theta}\,\theta^{(a-1)}\,(1-\theta)^{(b-1)}$$
 
 The mathematical details aren't of much interest, but what is is that the beta *distribution* is different from the beta function. The latter, defined as $$B(a,b)$$ ensures that the probability density function $$B(\theta / a,b)$$ integrates to 1 (see point above on probability denisities).
 
-For more info on using beta distirbution to compute a posterior over likely $$\theta$$ values, see here: https://github.com/aloctavodia/Doing_bayesian_data_analysis/blob/master/05_BernBeta.py
-
 Let's run the following code to see what happens when we input the $$\theta=[0.9,0.7,0.5,0.3,0.1]$$ into a beta density functions with parameters $$a=4\,,\,b=4$$
-
-
 
 ```python
 from scipy.stats import beta
@@ -392,13 +388,13 @@ Sampling $$\theta$$ from the posterior distribution. You do this via an algorith
 
 *(AKA Paul's 5 Step Guide to a Perfect Posterior)*
 
-1. Start with a guess of $$\theta$$ and calculate its $\theta$ by computing $$p(Data|\theta)p(\theta)$$. Thus, one still needs to specify a prior and a likleihood function to do MCMC. 
+1. Start with a guess of $$\theta$$ and calculate its $$\theta$$ by computing $$p(Data|\theta)p(\theta)$$. Thus, one still needs to specify a prior and a likleihood function to do MCMC. 
 
 
-2. Randomly choose a new $$\theta$$ from a "jumping" distribution (also known as a proposal distribution). Jumping just means, am I going to jump to larger or smaller $\theta$ value from my current $$\theta$$.
+2. Randomly choose a new $$\theta$$ from a "jumping" distribution (also known as a proposal distribution). Jumping just means, am I going to jump to larger or smaller $$\theta$$ value from my current $$\theta$$.
 
 
-3. A jumping distribution could be $$ jump \sim  \mathcal{N} (0,\sigma)$$ where a given jump, either larger (positive) or smaller (negative) from one's current $\theta$ is determined from randomly sampling from this distribution (centered on staying where one is at). 
+3. A jumping distribution could be $$jump \sim  \mathcal{N} (0,\sigma)$$ where a given jump, either larger (positive) or smaller (negative) from one's current $\theta$ is determined from randomly sampling from this distribution (centered on staying where one is at). 
 
 
 4. Use this equation to decide to jump or stay where one is currently at:
