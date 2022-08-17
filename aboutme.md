@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-![image](assets/img/me_jerusalem.jpg)
+<img src="assets/img/me_jerusalem_better.jpg" alt="drawing" style="width:200px;"/>
 
 ### Data Scientist
 
