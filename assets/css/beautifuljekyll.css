@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -133,6 +133,7 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+
 }
 
 .navbar-custom,
@@ -146,7 +147,7 @@ img {
   line-height: 1.5;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -176,7 +177,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
-  font-size: 0.8125rem;
+  font-size: 1.25rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -190,12 +191,12 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-  font-weight: 800;
+  font-weight: 400;
   color: {{ site.navbar-text-col | default: "#404040" }};
 }
 
 .navbar-toggler {
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
