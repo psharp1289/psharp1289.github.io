@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Bio
-cover-img: /assets/img/MPC_Headshot_PaulSharp.JPG
 ---
 
 ### Data Scientist
