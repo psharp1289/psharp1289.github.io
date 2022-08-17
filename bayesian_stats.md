@@ -93,17 +93,7 @@ TeX: {
 ```python
 data.loc['square'] #filter data to only view objects that are squares
 ```
-
-    blue                10
-    red                 40
-    marginal (shape)    50
-    Name: square, dtype: int64
-
-
-
-### By conditioning on square, we filter the data and only consider objects that are squares.
-
-We then get the following conditional probability $$\begin{aligned} p(blue|square) = 10/50 = 0.2 \end{aligned} $$. We computed this by taking the joint probability $$\begin{aligned} p(blue \cap square) \end{aligned}$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
+By conditioning on square, we filter the data and only consider objects that are squares. We then get the following conditional probability $$p(blue|square) = 10/50 = 0.2$$. We computed this by taking the joint probability $$\begin{aligned} p(blue \cap square) \end{aligned}$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
 Now, let's assess the marginal probability of $$p(blue)$$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $$p(blue)= \frac{20}{100} = 0.2$$. Here $$p(blue)=p(blue|square)$$ which means that event *blue* is independent of  event *square*.
 
@@ -144,7 +134,6 @@ This equivalence delivers an intuition about integration. That is, integrating i
 ```python
 import pandas as pd
 data=pd.read_csv('sample_data_class_1.csv',index_col=0)
-data #print out contigency table
 ```
 
 <div>
@@ -277,9 +266,7 @@ plt.show()
 You'll notice that this is a probability *mass* function, with probability values at discrete values that sum to one. 
 
 ### Data
-
 Below in the next bit of code is the Data we observe. Here, we observe 1 coin-toss, which came up heads.
-
 
 ```python
 n_heads = 100
@@ -287,8 +274,7 @@ n_tails = 1
 ```
 
 ### Likelihood function and generative models
-
-Likelihood functions denoted in Bayes by $$p(data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data|\theta,model)$$.
+Likelihood functions denoted as $$p(Data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data|\theta,model)$$.
 
 
 Here, we'll use the Bernoulli likelihood function as a way to generate data. We use this because it's suited exactly for what we're studying: a single, binary response. One can think of Bernoulli as defining the likelihood that one of the two binary outcomes is favored due to a bias term, denoted here as $$\theta$$.
@@ -323,7 +309,6 @@ p_data = np.sum(p_data_given_theta * p_theta)
 ```
 
 ### Posterior: Re-allocating credibility
-
 Now since we have all the pieces of Bayes theorem we can use it to reallocate credibility (probability) to candidate $$\theta$$ values that serve to explain our data (again that we saw a coin-flip come up heads). 
 
 
