@@ -274,7 +274,7 @@ n_tails = 1
 ```
 
 ### Likelihood function and generative models
-Likelihood functions denoted as $$p(Data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data \ \theta,model)$$.
+Likelihood functions denoted as $$p(Data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data / \theta,model)$$.
 
 
 Here, we'll use the Bernoulli likelihood function as a way to generate data. We use this because it's suited exactly for what we're studying: a single, binary response. One can think of Bernoulli as defining the likelihood that one of the two binary outcomes is favored due to a bias term, denoted here as $$\theta$$.
@@ -465,9 +465,9 @@ Building blocks:
 
 1. $$p(\theta_{1}|\theta_{2})=p(\theta_{1})$$
 
-2. $$p(\theta_{1} \, \cap \, \theta_{2})= ?$$
+2. $$p(\theta_{1} \, \cap \, \theta_{2})= p(\theta_{1})p(\theta_{2})$$
 
-
+These parameters are *independent*.
 
 ```python
 
@@ -507,9 +507,7 @@ np.random.seed(47405)
 
 ### A multivariate normal jumping distribution
 
-Why multivariate?
-See below, run the code on the covariance matrix. Why do we need a covariance matrix?
-
+Here we need a multivariate jumping distribution because we're sampling from the joint multivariate posterior of $$\theta_{1}$$ and $$\theta_{1}$$.
 
 ```python
 # This is the variance of the jumping distribution.
