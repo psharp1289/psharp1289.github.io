@@ -1,4 +1,7 @@
-# Intro to Hierarchical Bayes
+---
+layout: page
+title: Bayesian Statistics example
+---
 
 ##### *"Conditional probabilities play an important role in investigating causal questions, as we often want to compare how the probability (or, equivalently, risk) of an outcome changes under different filtering, or exposure, conditions."* - Judea Pearl
 
