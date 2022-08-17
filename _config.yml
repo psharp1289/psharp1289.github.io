@@ -23,10 +23,8 @@ author: Paul Sharp, Ph.D.
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Publications: "https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en"
-    
-  Author's home: "https://paulsharp.github.io"
+  Publications: "https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en"    
+  Author's home: "https://psharp1289.github.io"
 
 ################
 # --- Logo --- #

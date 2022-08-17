@@ -9,7 +9,7 @@ Trained as a computational cognitive scientist, I develop reinforcement learning
 
 ### Skills
 - Python Programming 
-	- eLife paper Github](https://github.com/psharp1289/multigoal_RL)
+	- [eLife paper Github](https://github.com/psharp1289/multigoal_RL)
 - Machine Learning 
 	- [Certificate Machine Learning](https://www.coursera.org/account/accomplishments/certificate/CE3X3Q35HRHS)
 - Bayesian statistical analysis 
