@@ -90,9 +90,9 @@ data.loc['square'] #filter data to only view objects that are squares
 
 
 
-### By conditioning on square, we filter the data and only consider objects that are squares
+### By conditioning on square, we filter the data and only consider objects that are squares.
 
-$$p(blue|square)= 10/50 = 0.2$$.
+We then get the following conditional probability: $$p(blue|square) = 10/50 = 0.2$$.
 
 We computed this by taking the joint probability $$p(blue \cap square)$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
@@ -264,18 +264,8 @@ plt.xlabel('$$\\theta$$')
 plt.ylabel('$$P(\\theta)$$')
 plt.title('Prior')
 plt.show()
-
-print(p_theta)
 ```
-
-
     
-![png](Hierarchical%20Bayes%20Class1_files/Hierarchical%20Bayes%20Class1_16_0.png)
-    
-
-
-    [0.   0.04 0.08 0.12 0.16 0.2  0.16 0.12 0.08 0.04 0.  ]
-
 
 You'll notice that this is a probability *mass* function, with probability values at discrete values that sum to one. 
 
@@ -291,7 +281,7 @@ n_tails = 1
 
 ### Likelihood function and generative models
 
-Likelihood functions, denoted in Bayes' by $$p(Data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data|\theta,model)$$.
+Likelihood functions, denoted in Bayes by $$p(Data|\theta)$$ can be thought of as part of the essence of a generative model. A generative model is a formal description of a mechanism that can generate observable data and is contingent upon parameter settings within the mechanism. For instance, in a reinforcement learning setting, the mechanism generating the data could be Q-learning algorithms. Inputting data and parameters into these algorithms can generate probabilities in the form $$p(data|\theta,model)$$.
 
 
 Here, we'll use the Bernoulli likelihood function as a way to generate data. We use this because it's suited exactly for what we're studying: a single, binary response. One can think of Bernoulli as defining the likelihood that one of the two binary outcomes is favored due to a bias term, denoted here as $$\theta$$.
@@ -309,12 +299,7 @@ plt.xlabel('$$\\theta$$')
 plt.ylabel('$$P(D|\\theta)$$')
 plt.title('Likelihood')
 plt.show()
-```
-
-
-    
-![png](Hierarchical%20Bayes%20Class1_files/Hierarchical%20Bayes%20Class1_20_0.png)
-    
+```    
 
 
 Note that although we previously computed Bayes' theorem on a single value in the example with objects being drawn from a hat, here, Bayes' theorem is computed on a *distribution*.
@@ -347,12 +332,7 @@ plt.xlabel('$$\\theta$$')
 plt.ylabel('$$P(\\theta|D)$$')
 plt.title('Posterior')
 plt.show()
-```
-
-
-    
-![png](Hierarchical%20Bayes%20Class1_files/Hierarchical%20Bayes%20Class1_25_0.png)
-    
+```    
 
 
 ### How the prior affects the posterior
@@ -373,6 +353,7 @@ To do this, we need to find a distribution that satisfies two conditions for a g
 The beta distribution is a good candidate because it satisfies these conditions **for our data**. The beta distribution has a scale ranging from 0 to 1 (which is the natural range of coin biases) and is defined by two meaningful parameters, $$a$$ and $$b$$, that control the prior bias to favor either $$\theta=0$$, via an increasing $$b$$ or favoring $$\theta=1$$ via an increasing $$a$$.
 
 Formally the beta distribution is defined as such:
+
 $$\theta^{(a-1)}\,(1-\theta)^{(b-1)} \, / \, B(a,b)$$
 
 where $$B(a,b)=\int_{0}^{1}{d\theta}\,\theta^{(a-1)}\,(1-\theta)^{(b-1)}$$
@@ -386,20 +367,11 @@ Let's run the following code to see what happens when we input the $$\theta=[0.9
 
 
 
-
-
 ```python
 from scipy.stats import beta
 
 beta.pdf([0.9,0.7,0.5,0.3,0.1],4,4)
 ```
-
-
-
-
-    array([0.10206, 1.29654, 2.1875 , 1.29654, 0.10206])
-
-
 
 Assuming the higest number is the peak of the distribution, what can we say with the output of the function? Why are some outputs greater than 1? What can we infer about the coin if this is the true underlying distribution of real $$\theta$$ values?
 
@@ -414,16 +386,3 @@ The most difficult part of estimating posteriors is to solve for the marginal li
 2. **Numerical approimation via a grid of relevant parameters points**
     - The integral is approximated by a sum of several discrete values. This is what we did in the example above even though we could have computed the posterior analytically. 
 
-
-### Next week: Solving Bayes by approximation
-
-We will dive into estimating models with multiple parameters, and as such requires new techniques.
-
-For instance $$p(\theta,\beta,\alpha,\mu,\gamma,\delta|data)$$ is a 6-dimensional joint probability space to estimate (again this is just a generalization of the 1-dimensional scenario we've been working with). If the solution 
-
-
-
-
-```python
-
-```
