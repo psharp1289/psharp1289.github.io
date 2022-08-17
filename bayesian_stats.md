@@ -95,7 +95,7 @@ data.loc['square'] #filter data to only view objects that are squares
 ```
 By conditioning on square, we filter the data and only consider objects that are squares. We then get the following conditional probability $$p(blue|square) = 10/50 = 0.2$$. We computed this by taking the joint probability $$\begin{aligned} p(blue \cap square) \end{aligned}$$ and dividing it by the marginal probability $$p(square)$$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
-Now, let's assess the marginal probability of $$p(blue)$$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $$p(blue)= \frac{20}{100} = 0.2$$. Here $$p(blue)=p(blue|square)$$ which means that event *blue* is independent of  event *square*.
+Now let's assess the marginal probability of $$p(blue)$$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $$p(blue)= \frac{20}{100} = 0.2$$. Here $$p(blue)$$=$$p(blue|square)$$ which means that event *blue* is independent of  event *square*.
 
 Of note, I use the term *event* when a random variable is assigned to a given value. So, here, if shape and color are our two random variables, the two events are color=blue and shape=square. Alternatively, one could ask the question, are shapes independent of colors, which is at the level of random variables. Although we won't delve into it, you can see perhaps that the independence of a given color from a shape disappears when using different events. This is an indication of an interaction between these two random variables: that the effect of conditioning on shape depends on which level of color one is considering and vice versa. 
 
@@ -351,7 +351,7 @@ $$\theta^{(a-1)}\,(1-\theta)^{(b-1)} \, / \, B(a,b)$$
 where $$B(a,b)=\int_{0}^{1}{d\theta}\,\theta^{(a-1)}\,(1-\theta)^{(b-1)}$$
 
 
-The mathematical details aren't of much interest, but what is is that the beta *distribution* is different from the beta function. The latter, defined as $$B(a,b)$$ ensures that the probability density function beta$$(\theta|a,b)$$ integrates to 1 (see point above on probability denisities).
+The mathematical details aren't of much interest, but what is is that the beta *distribution* is different from the beta function. The latter, defined as $$B(a,b)$$ ensures that the probability density function $$ \text{beta}$$ ($$\theta|a,b$$) integrates to 1 (see point above on probability denisities).
 
 For more info on using beta distirbution to compute a posterior over likely $$\theta$$ values, see here: https://github.com/aloctavodia/Doing_bayesian_data_analysis/blob/master/05_BernBeta.py
 
