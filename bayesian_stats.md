@@ -70,17 +70,14 @@ data #print out contigency table
 </table>
 </div>
 
+#### How to find the conditional probability
 
-
-$p(blue|square)=?$
+$p(blue|square)= ?$.
 
 
 ```python
 data.loc['square'] #filter data to only view objects that are squares
 ```
-
-
-
 
     blue                10
     red                 40
@@ -90,11 +87,12 @@ data.loc['square'] #filter data to only view objects that are squares
 
 
 ### By conditioning on square, we filter the data and only consider objects that are squares
-$p(blue|square)= 10/50 = 0.2$
+
+$p(blue|square)= 10/50 = 0.2$.
 
 We computed this by taking the joint probability $p(blue \cap square)$ and dividing it by the marginal probability $p(square)$. One can think of this as normalizing the frequency we get after filtering by the amount of items we've filtered. Colloquially, we could say, "Given that we're only considering square objects, what is the probability I find a blue object." As such, all probabilities must equal 1, or in terms of frequencies, the sum of frequencies must equal the marginal frequency of square objects.
 
-Now, let's assess the marginal probability of $p(blue)$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $p(blue)= \frac{20}{100} = 0.2$
+Now, let's assess the marginal probability of $p(blue)$. The marginal is the total of all blue objects. The probability is this total divided by how many objects there are, or in this case, $p(blue)= \frac{20}{100} = 0.2$.
 
 Here $p(blue)=p(blue|square)$, which means that event *blue* is independent of  event *square*.
 
@@ -108,7 +106,7 @@ $\delta x=intervalWidth$
 
 To continue our exams example, this $\delta x$ is every 2-point interval starting at 0. Summing up the probability mass is a matter of summing up the ratio of exam scores in a given interval over the total number of test takers *for each interval*. This amounts to the equation below:
 
-$Mass_{total}= \sum_{i=interval} \, p([x_i, \, x_i+\delta x]) $ = 1
+$ Mass_{total}= \sum_{i=interval} \, p([x_i, \, x_i+\delta x]) $ = 1
 
 The summation of the probability mass of all intervals within a dataset must add up to 1.
 
@@ -132,15 +130,11 @@ This equivalence delivers an intuition about integration. That is, integrating i
 
 ### Deriving bayes theorem with a symmetry: filtering the data in two ways to compute joint probabilities
 
-
 ```python
 import pandas as pd
 data=pd.read_csv('sample_data_class_1.csv',index_col=0)
 data #print out contigency table
 ```
-
-
-
 
 <div>
 <style scoped>
