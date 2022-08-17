@@ -626,8 +626,7 @@ footer .footer-custom-content {
 
 #full-tags-list .tag-entry .entry-date {
   color: #808080;
-  font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
 }
 
 /* --- Post and page headers --- */
@@ -985,7 +984,7 @@ pre {
 
 .blog-post .caption {
   text-align: center;
-  font-size: 0.975rem;
+  font-size: 1.5rem;
   padding: 0.625rem;
   font-style: italic;
   color: #777;
