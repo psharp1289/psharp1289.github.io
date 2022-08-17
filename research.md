@@ -9,9 +9,6 @@ My research program has been devoted to understanding the computational mechanis
 
 ### Key Scientific Publications
 
-- Sharp PB, Fradkin I, Eldar E. Hierarchical inference as a source of human biases. (2022). Cognitive, Affective Be-
-havioral Neuroscience.
-
 - Sharp PB, Russek, E., Huys, Q., Dolan RJ, Eldar E. Humans perseverate on punishment avoidance goals in multigoal
 reinforcement learning. (2022). eLife.
 
@@ -21,8 +18,7 @@ Psychological Medicine.
 - Sharp PB,Miller, GA, Dolan RJ, Eldar E. Towards formal models of psychopathological traits that explain symptom
 trajectories. (2020). BMC Medicine.
 
-- Sharp PB, Eldar E. Computational models of anxiety: Nascent efforts and future directions. (2019). Current Direc-
-tions in Psychological Science.
+- Sharp PB, Eldar E. Computational models of anxiety: Nascent efforts and future directions. (2019). Current Directions in Psychological Science.
 
 ### Links
 
