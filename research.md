@@ -1,11 +1,11 @@
 ---
 layout: page
-title: My research background
+title: Research
 ---
 
-# Using computational neuroscience to explain human emotion
+# Computations of planning and worry 
 
-My research program has been devoted to understanding the computational mechanisms that give rise to human worry. In my 10+ years of independent research, I have degrees spanning clinical psychology, developmental neuroscience, and computational cognitive science.
+My research program has been devoted to understanding the computational mechanisms that give rise to how humans plan, and how this goes awry in states of worry. In my 10+ years of independent research, I have degrees spanning clinical psychology, developmental neuroscience, and computational cognitive science.
 
 ### Key Scientific Publications
 
@@ -26,5 +26,6 @@ tions in Psychological Science.
 
 ### Links
 
-[Google Scholar Profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en).
-[Recent talk at Brown University, Michael J. Frank lab](https://www.youtube.com/watch?v=5BtMvFwU7mk)
+- [Google Scholar Profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en).
+
+- [Recent talk at Brown University, Michael J. Frank lab](https://www.youtube.com/watch?v=5BtMvFwU7mk)
