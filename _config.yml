@@ -25,7 +25,7 @@ navbar-links:
   Home: "psharp1289.github.io"
   About Me: "aboutme"
   Research: "research" 
-  Bayesian Stats: "bayes"   
+  Bayes: "bayes"   
   Twitter: "https://twitter.com/paul_b_sharp"
 
 ################
@@ -124,11 +124,11 @@ navbar-col: "#2F4F4F"
 navbar-text-col: "#FFFAF0"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFAF0"
-text-col: "#4682B4"
+text-col: "#483D8B"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#2F4F4F"
+footer-text-col: "#FFFAF0"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
 
