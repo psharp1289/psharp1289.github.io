@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Human prioritize punishment avoidance in multi-goal reinforcement learning 
+title: Humans are biased towards punishment avoidance in multigoal-RL
 subtitle: A recent study in eLife
-tags: [reinforcement learning, planning]
+tags: [reinforcement learning, multi-tasking]
 comments: true
 ---
 

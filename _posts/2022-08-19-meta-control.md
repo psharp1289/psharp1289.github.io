@@ -1,7 +1,7 @@
 ---
 layout: post
-title: On meta-control of planning
-subtitle: How humans delay planning optimally
+title: Humans rapidly infer to optimally delay planning
+subtitle: The computations of planning meta-control
 tags: [Reinforcement learning, planning, worry]
 comments: true
 ---
