@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Humans care more to avoid punishment than pursue reward in multigoal-RL
-subtitle: eLife article on multi-goal RL
+title: Punishment perseveration in multi-goal RL
+subtitle: Sharp (2022) published in eLife
 tags: [reinforcement learning, multi-tasking]
 comments: true
 ---
