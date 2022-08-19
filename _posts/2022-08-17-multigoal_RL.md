@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Humans care more to avoid punishment than pursue reward in multigoal-RL
-subtitle:  recent study in eLife
+subtitle: eLife article on multi-goal RL
 tags: [reinforcement learning, multi-tasking]
 comments: true
 ---
