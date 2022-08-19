@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Humans rapidly infer to delay planning
+title: Humans rapidly infer when to initiate planning
 subtitle: The computations of planning meta-control
 tags: [Reinforcement learning, planning, worry]
 comments: true
