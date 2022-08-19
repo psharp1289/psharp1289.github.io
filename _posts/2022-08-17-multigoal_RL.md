@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Humans are biased towards punishment avoidance in multigoal-RL
-subtitle: A recent study in eLife
+title: Humans care more to avoid punishment than pursue reward in multigoal-RL
+subtitle:  recent study in eLife
 tags: [reinforcement learning, multi-tasking]
 comments: true
 ---
