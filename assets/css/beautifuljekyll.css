@@ -143,7 +143,7 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-top: 0.05rem;
+  margin-top: 0rem;
 
 }
 
@@ -169,7 +169,7 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-top: 0.05rem;
+  margin-top: 0rem;
 
 }
 
@@ -184,7 +184,7 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  border-bottom: 0px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -468,7 +468,7 @@ footer a:focus {
 footer .list-inline {
   margin: 0;
   padding: 0;
-  margin-bottom: 1.875rem;
+  margin-bottom: 0rem;
 }
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -482,7 +482,7 @@ footer .theme-by {
 }
 footer .footer-custom-content {
   text-align: center;
-  margin-bottom: 0.9375rem;
+  margin-bottom: 0rem;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
