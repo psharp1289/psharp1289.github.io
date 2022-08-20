@@ -138,13 +138,15 @@ img {
   width: 200px;        /* We need to set the width whenever we float an element */
 }
 
-.sidebar-left, .sidebar-right {
-  background-color: #6B8E23;
-    background-            image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border:none;
+.sidebar-left .sidebar-right {
+  height=100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #F0FFFF;
+  background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:none;
 }
 
 .navbar-custom {
