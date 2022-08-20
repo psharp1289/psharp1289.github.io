@@ -134,7 +134,7 @@ img {
   width: 400px;        /* We need to set the width whenever we float an element */
   height: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-family: 'Lora';
   background-color: #F0FFFF;
   background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
@@ -143,7 +143,7 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-bottom: 1000px; 
+  margin-bottom: -1000px; 
   padding-bottom: 0px; 
 }
 
@@ -154,7 +154,7 @@ img {
   width: 400px;        /* We need to set the width whenever we float an element */
   height: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-family: 'Lora';
   background-color: #F0FFFF;
   background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
@@ -163,7 +163,7 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-bottom: 1000px; /* any large number will do */
+  margin-bottom: -1000px; /* any large number will do */
   padding-bottom: 0px; 
 }
 
