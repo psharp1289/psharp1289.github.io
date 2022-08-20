@@ -44,7 +44,7 @@ h4 {
   font-size: 1.0 rem;
 }
 h1, h2, h3, h4 {
-  margin-top: 1rem;
+  margin-top: 0.15rem;
 }
 a {
   color: {{ site.link-col | default: "#008AFF" }};
@@ -143,6 +143,7 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
+  margin-top: 0rem;
   margin-bottom: -800px; 
   padding-bottom: 800px; 
 }
