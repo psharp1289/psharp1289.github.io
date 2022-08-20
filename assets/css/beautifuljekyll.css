@@ -143,8 +143,8 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-bottom: -1000px; 
-  padding-bottom: 1000px; 
+  margin-bottom: -800px; 
+  padding-bottom: 800px; 
 }
 
 .sidebar-right {
@@ -163,8 +163,8 @@ img {
   background-repeat: no-repeat;
   border:none;
   padding-top: 2rem;
-  margin-bottom: -1000px; /* any large number will do */
-  padding-bottom: 1000px; 
+  margin-bottom: -800px; /* any large number will do */
+  padding-bottom: 800px; 
 }
 
 /* --- Navbar --- */
@@ -188,8 +188,8 @@ img {
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .navbar-custom .navbar-brand {
