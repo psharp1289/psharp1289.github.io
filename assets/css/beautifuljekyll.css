@@ -69,26 +69,7 @@ hr.small {
 }
 
 
-sidebar-left {
-  float: left;         /* This causes the sidebar to move to the left
-                          It's going to appear to the left of the content because 
-                          we declared it first in our HTML page */
-  width: 200px;        /* We need to set the width whenever we float an element */
-}
 
-sidebar-right {
-  float: right;        /* This causes the sidebar to move to the right */
-  width: 200px;        /* We need to set the width whenever we float an element */
-}
-
-sidebar-left, sidebar-right {
-  background-color: #6B8E23;
-    background-            image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border:none;
-}
 
 
 /* fix in-page anchors to not be behind fixed header */
@@ -144,6 +125,27 @@ img {
 }
 
 /* --- Navbar --- */
+
+.sidebar-left {
+  float: left;         /* This causes the sidebar to move to the left
+                          It's going to appear to the left of the content because 
+                          we declared it first in our HTML page */
+  width: 200px;        /* We need to set the width whenever we float an element */
+}
+
+.sidebar-right {
+  float: right;        /* This causes the sidebar to move to the right */
+  width: 200px;        /* We need to set the width whenever we float an element */
+}
+
+.sidebar-left, .sidebar-right {
+  background-color: #6B8E23;
+    background-            image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+}
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
@@ -666,8 +668,8 @@ footer .footer-custom-content {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: 3rem; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 3rem;
+  margin-top: 1rem; /* The small navbar is 50px tall + 1px border */
+  margin-bottom: 1rem;
 }
 nav.top-nav-short-permanent ~ header > .intro-header {
   margin-top: 5rem;
@@ -700,11 +702,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading h1 {
   margin-top: 1rem;
-  font-size: 3.5rem;
+  font-size: 1.5rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
@@ -716,7 +718,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin: 0.625rem 0 0;
 }
 .intro-header .post-heading .post-subheading {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
@@ -753,7 +755,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     padding: 9.375rem 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .intro-header .post-heading h1 {
     font-size: 2rem;
