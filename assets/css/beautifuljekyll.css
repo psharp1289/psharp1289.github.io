@@ -144,7 +144,7 @@ img {
   border:none;
   padding-top: 2rem;
   margin-bottom: -1000px; 
-  padding-bottom: 0px; 
+  padding-bottom: 1000px; 
 }
 
 .sidebar-right {
@@ -164,7 +164,7 @@ img {
   border:none;
   padding-top: 2rem;
   margin-bottom: -1000px; /* any large number will do */
-  padding-bottom: 0px; 
+  padding-bottom: 1000px; 
 }
 
 /* --- Navbar --- */
@@ -263,8 +263,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 
   .navbar-custom .navbar-brand-logo {
