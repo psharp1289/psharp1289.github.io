@@ -124,7 +124,8 @@ img {
   }
 }
 
-/* --- Navbar --- */
+
+/* --- Sidebar --- */
 
 .sidebar-left {
   float: left;         /* This causes the sidebar to move to the left
@@ -134,16 +135,41 @@ img {
   height: 100%;
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Lora';
   background-color: #F0FFFF;
   background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border:none;
-  margin-bottom: -5000px; /* any large number will do */
-  padding-bottom: 5000px; 
+  padding-top: 2rem;
+  margin-bottom: 1000px; 
+  padding-bottom: 0px; 
 }
+
+.sidebar-right {
+  float: right;         /* This causes the sidebar to move to the left
+                          It's going to appear to the left of the content because 
+                          we declared it first in our HTML page */
+  width: 400px;        /* We need to set the width whenever we float an element */
+  height: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Lora';
+  background-color: #F0FFFF;
+  background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:none;
+  padding-top: 2rem;
+  margin-bottom: 1000px; /* any large number will do */
+  padding-bottom: 0px; 
+}
+
+/* --- Navbar --- */
+
+
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
