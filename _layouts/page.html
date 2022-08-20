@@ -4,14 +4,6 @@ layout: base
 
 {% include header.html type="page" %}
 
-<div class="sidebar sidebar-left">
-<div>CV</div>
-</div>
-
-<div class="sidebar sidebar-right">
-<div>Projects</div>
-</div>
-
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
   
   <div class="row">
@@ -23,8 +15,6 @@ layout: base
           {% endfor %}
     
       {% endif %}
-
-
 
       {{ content }}
 
