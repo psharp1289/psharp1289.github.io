@@ -132,18 +132,18 @@ img {
                           It's going to appear to the left of the content because 
                           we declared it first in our HTML page */
   width: 400px;        /* We need to set the width whenever we float an element */
-  height: 100vh;
   text-align: center;
   font-size: 1.75rem;
   font-family: Verdana, sans-serif;
   background-color: #F0FFFF;
-  background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border:none;
-  padding-top: 2rem;
+  padding-top: 10rem;
   margin-top: 0rem;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px;
 
 }
 
@@ -158,18 +158,18 @@ img {
                           It's going to appear to the left of the content because 
                           we declared it first in our HTML page */
   width: 400px;        /* We need to set the width whenever we float an element */
-  height: 100vh;
   text-align: center;
   font-size: 1.75rem;
   font-family: Verdana, sans-serif;
   background-color: #F0FFFF;
-  background: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border:none;
-  padding-top: 2rem;
+  padding-top: 10rem;
   margin-top: 0rem;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px;
 
 }
 
