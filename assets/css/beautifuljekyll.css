@@ -83,6 +83,11 @@ sidebar-right {
 
 sidebar-left, sidebar-right {
   background-color: #6B8E23;
+    background-            image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
 }
 
 
@@ -695,7 +700,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading h1 {
   margin-top: 1rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 1rem;
