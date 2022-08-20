@@ -478,11 +478,11 @@ footer .copyright {
 }
 footer .theme-by {
   text-align: center;
-  margin: 2rem 0 0;
+  margin: 1rem 0 0;
 }
 footer .footer-custom-content {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -492,12 +492,13 @@ footer .footer-custom-content {
   }
   footer .footer-links {
     font-size: 1.125rem;
+    margin-bottom: 0.5rem;
   }
   footer .copyright {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
   footer .footer-custom-content {
-    font-size: 2rem;
+    font-size: 0.75rem;
   }
 }
 
