@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Punishment perseveration in multi-goal RL
+title: Goal mismanagement in reinforcement learning
 subtitle: Sharp (2022) published in eLife
 tags: [reinforcement learning, multi-tasking]
 comments: true

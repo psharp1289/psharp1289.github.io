@@ -68,6 +68,24 @@ hr.small {
   border-radius: 0.0rem;
 }
 
+
+sidebar-left {
+  float: left;         /* This causes the sidebar to move to the left
+                          It's going to appear to the left of the content because 
+                          we declared it first in our HTML page */
+  width: 200px;        /* We need to set the width whenever we float an element */
+}
+
+sidebar-right {
+  float: right;        /* This causes the sidebar to move to the right */
+  width: 200px;        /* We need to set the width whenever we float an element */
+}
+
+sidebar-left, sidebar-right {
+  background-color: #6B8E23;
+}
+
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
@@ -677,7 +695,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading h1 {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .intro-header .post-heading h1 {
   margin-top: 1rem;
@@ -685,11 +703,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 350;
+  font-weight: 370;
   margin: 0.625rem 0 0;
 }
 .intro-header .post-heading .post-subheading {
