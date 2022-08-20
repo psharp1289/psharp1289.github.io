@@ -147,6 +147,12 @@ img {
   padding-bottom: 800px; 
 }
 
+@media (max-width: 768px) {
+    .sidebar-left {
+        display: none;
+    }
+}
+
 .sidebar-right {
   float: right;         /* This causes the sidebar to move to the left
                           It's going to appear to the left of the content because 
@@ -167,6 +173,11 @@ img {
   padding-bottom: 800px; 
 }
 
+@media (max-width: 768px) {
+    .sidebar-right {
+        display: none;
+    }
+}
 /* --- Navbar --- */
 
 
@@ -188,8 +199,8 @@ img {
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .navbar-custom .navbar-brand {
@@ -226,7 +237,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: lowercase;
-  font-size: 1.25rem;
+  font-size: 1.00rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -234,8 +245,8 @@ img {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 1.25rem;
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .navbar-custom .navbar-brand,
@@ -245,7 +256,7 @@ img {
 }
 
 .navbar-toggler {
-  font-size: 1.25rem;
+  font-size: 1.00rem;
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
