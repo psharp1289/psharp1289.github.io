@@ -16,6 +16,10 @@ layout: base
             {% include {{ file }} %}
           {% endfor %}
         </div>
+        <div class="sidebar sidebar-left">
+        </div>
+        <div class="sidebar sidebar-right">
+        </div>
       {% endif %}
 
       {{ content }}
@@ -26,10 +30,7 @@ layout: base
             {% include {{ file }} %}
           {% endfor %}
         </div>
-        <div class="sidebar sidebar-left">
-        </div>
-        <div class="sidebar sidebar-right">
-        </div>
+        
       {% endif %}
 
       {% include comments.html %}
