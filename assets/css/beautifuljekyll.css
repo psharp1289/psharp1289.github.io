@@ -131,7 +131,8 @@ img {
                           It's going to appear to the left of the content because 
                           we declared it first in our HTML page */
   width: 400px;        /* We need to set the width whenever we float an element */
-  height=100%;
+  height: 100%;
+  text-align: center;
   font-size: 1.5rem;
   font-family: 'Lora', 'Times New Roman', serif;
   background-color: #F0FFFF;
