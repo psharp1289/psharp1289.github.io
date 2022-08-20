@@ -141,6 +141,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   border:none;
+  margin-bottom: -5000px; /* any large number will do */
+  padding-bottom: 5000px; 
 }
 
 .navbar-custom {
