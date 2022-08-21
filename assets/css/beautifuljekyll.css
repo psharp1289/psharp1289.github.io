@@ -140,8 +140,13 @@ img {
   color: #6B8E23;
   display: flex;
   min-width: 300px;
+  min-height: calc(100vh - 50px);
 }
 
+.content{
+flex-grow: 1;
+display: flex;
+}
 
 .inner-text{
   font-size: 1.5rem;
@@ -412,7 +417,6 @@ img {
 
 footer {
   padding: 1.875rem 0;
-  display: flex;
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
@@ -666,10 +670,8 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: auto;
+  margin: 5rem 0 1.25rem;
   position: relative;
-  display: flex;
-
 }
 .intro-header.big-img {
   background: no-repeat center center;
