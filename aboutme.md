@@ -2,8 +2,9 @@
 layout: page
 title: About me
 ---
-
-![mypic](assets/img/me.jpg){:height="300" width="350px"}. 
+{:refdef: style="text-align: center;"}
+![mypic](assets/img/me.jpg){:height="300px" width="400px"}. 
+{: refdef}
 
 ## Data Scientist
 
