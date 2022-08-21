@@ -21,7 +21,6 @@ body {
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
-  width: 900px;
 }
 p {
   line-height: 1;
@@ -721,11 +720,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin-top: 0;
   font-size: 3.15rem;
   font-weight: 600;
+  align-content: center;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
   font-size: 3.15rem;
   font-weight: 600;
+  align-content: center;
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
