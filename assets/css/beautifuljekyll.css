@@ -412,6 +412,7 @@ img {
 
 footer {
   padding: 1.875rem 0;
+  display: flex;
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
@@ -665,8 +666,10 @@ footer .footer-custom-content {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 5rem 0 1.25rem;
+  margin: auto;
   position: relative;
+  display: flex;
+
 }
 .intro-header.big-img {
   background: no-repeat center center;
