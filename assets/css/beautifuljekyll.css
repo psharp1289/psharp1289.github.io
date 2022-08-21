@@ -139,6 +139,7 @@ img {
   background-color: #2F4F4F;
   color: #6B8E23;
   display: flex;
+  width: 200;
 }
 
 .content{
