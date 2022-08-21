@@ -22,6 +22,6 @@ trajectories. (2020). BMC Medicine.
 
 ### Links
 
-- [Google Scholar Profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en).
+- [Google Scholar Profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en)
 
 - [Recent talk at Brown University, Michael J. Frank lab](https://www.youtube.com/watch?v=5BtMvFwU7mk)

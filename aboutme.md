@@ -20,6 +20,6 @@ Trained as a computational cognitive scientist, I develop reinforcement learning
 - Bayesian statistical analysis 
 	- [Jupyter Notebooks](https://github.com/psharp1289/hierarchical-bayesian-modeling/)
 - Scientific writing, experimental design, computational modelling
-	- [Google Scholar profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en).
+	- [Google Scholar profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en)
 
 
