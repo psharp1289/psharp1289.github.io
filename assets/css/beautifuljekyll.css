@@ -516,13 +516,13 @@ footer .footer-custom-content {
   font-size: 1.75rem;
   font-weight: 500;
   text-align: left;
-  margin-top: 0.65rem;
+  margin-top: 0.95rem;
 }
 .post-preview .post-subtitle {
   text-align: left;
   font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.15rem;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
