@@ -32,9 +32,10 @@ common-js:
 
   {% include nav.html %}
 
-  {% include sidebar.html %}
-
-  {% include sidebarright.html %}  
+  <div class="with-sidebar">
+  <div><!-- non-sidebar --></div>
+  <div><!-- sidebar --></div>
+  </div>
 
   {{ content }}
 

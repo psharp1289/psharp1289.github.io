@@ -127,57 +127,26 @@ img {
 
 /* --- Sidebar --- */
 
-.sidebar-left {
-  float: left;         /* This causes the sidebar to move to the left
-                          It's going to appear to the left of the content because 
-                          we declared it first in our HTML page */
-  width: 400px;        /* We need to set the width whenever we float an element */
-  text-align: center;
-  font-size: 1.75rem;
-  font-family: Verdana, sans-serif;
-  background-color: #F0FFFF;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border:none;
-  padding-top: 10rem;
-  margin-top: 0rem;
-  margin-bottom: -5000px; /* any large number will do */
-  padding-bottom: 5000px;
-
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s1);
+  background-color: #2F4F4F;
+  color: #6B8E23;
 }
 
-@media (max-width: 768px) {
-    .sidebar-left {
-        display: none;
-    }
+.with-sidebar > :last-child {
+  flex-basis: 200; 
+  flex-grow: 1;
 }
 
-.sidebar-right {
-  float: right;         /* This causes the sidebar to move to the left
-                          It's going to appear to the left of the content because 
-                          we declared it first in our HTML page */
-  width: 400px;        /* We need to set the width whenever we float an element */
-  text-align: center;
-  font-size: 1.75rem;
-  font-family: Verdana, sans-serif;
-  background-color: #F0FFFF;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border:none;
-  padding-top: 10rem;
-  margin-top: 0rem;
-  margin-bottom: -5000px; /* any large number will do */
-  padding-bottom: 5000px;
-
+.with-sidebar > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 50%;
 }
 
-@media (max-width: 768px) {
-    .sidebar-right {
-        display: none;
-    }
-}
+
 /* --- Navbar --- */
 
 
