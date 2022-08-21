@@ -131,7 +131,6 @@ img {
 /* --- Sidebar --- */
 
 .main-container{
-  display: flex;
   min-height: calc(100vh - 50px);
 }
 
@@ -142,10 +141,6 @@ img {
   min-width: 300px;
 }
 
-.content{
-flex-grow: 1;
-display: flex;
-}
 
 .inner-text{
   font-size: 1.5rem;
