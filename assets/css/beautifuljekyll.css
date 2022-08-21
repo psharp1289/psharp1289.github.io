@@ -107,8 +107,7 @@ img::-moz-selection {
 img {
   max-width: 75%;
   max-height: 75%;
-  margin: auto;
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
 }
 
 .linked-section {
@@ -481,7 +480,7 @@ footer .footer-custom-content {
 .post-preview {
   width: 100%;
   wative;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
