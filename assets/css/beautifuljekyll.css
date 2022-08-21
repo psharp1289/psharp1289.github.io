@@ -481,7 +481,7 @@ footer .footer-custom-content {
   font-size: 1.25rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .post-preview {
     padding: 2.1875rem 0;
   }
@@ -524,7 +524,7 @@ footer .footer-custom-content {
 .post-heading .post-meta {
   display: inline-block;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .post-heading .post-meta {
     display: block;
     margin-bottom: 0;
@@ -574,7 +574,7 @@ footer .footer-custom-content {
   max-width: 6.25rem;
   max-height: 6.25rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .post-preview .post-image {
     display: none;
   }
@@ -587,7 +587,7 @@ footer .footer-custom-content {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .post-preview .post-title {
     font-size: 2rem;
   }
@@ -630,7 +630,7 @@ footer .footer-custom-content {
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .post-preview .blog-tags {
     margin-top: 0.625rem;
   }
@@ -844,7 +844,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   border-radius: 0;
   color: {{ site.text-col | default: "#404040" }};
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .pagination .page-item .page-link {
     padding: 0.9375rem 1.5625rem;
   }
