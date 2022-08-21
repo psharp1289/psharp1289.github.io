@@ -20,8 +20,6 @@ body {
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
-  
-  display: flex;
   min-height: 100vh;
   overflow-wrap: break-word;
 }
@@ -448,11 +446,9 @@ footer .list-inline {
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
-  margin: auto;
 }
 footer .theme-by {
   text-align: center;
-  margin: auto;
 }
 footer .footer-custom-content {
   text-align: center;
@@ -480,12 +476,10 @@ footer .footer-custom-content {
 
 .posts-list {
     margin: auto;
-    display: flex;
 }
 
 .post-preview {
   margin: auto;
-  display: flex;
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
