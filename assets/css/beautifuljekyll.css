@@ -480,6 +480,10 @@ footer .footer-custom-content {
 
 .post-preview {
   width: 1000px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
