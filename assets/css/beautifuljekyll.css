@@ -481,7 +481,7 @@ footer .footer-custom-content {
 .post-preview {
   width: 100%;
   wative;
-  margin-top: 0.95rem;
+  margin-top: 1.95rem;
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
@@ -569,8 +569,8 @@ footer .footer-custom-content {
 }
 @media (max-width: 1000px) {
   .post-preview .post-image {
-    height: 9rem;
-    width: 9rem;
+    height: 12rem;
+    width: 12rem;
   }
   .post-preview .post-image-short {
     margin-top: 0;
@@ -579,12 +579,12 @@ footer .footer-custom-content {
 .post-preview .post-image-small {
   width: 100%;
   height: 100%;
-  text-align: left;
+  text-align: right;
   display: none;
 }
 .post-preview .post-image-small img {
-  max-width: 6.25rem;
-  max-height: 6.25rem;
+  max-width: 8rem;
+  max-height: 8rem;
 }
 @media (max-width: 1000px) {
   .post-preview .post-image {
