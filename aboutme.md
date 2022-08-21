@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-![mypic](assets/img/me.jpg){:height="100px" width="100px"}. 
+![mypic](assets/img/me.jpg){:height="350px" width="250px"}. 
 
 ## Data Scientist
 

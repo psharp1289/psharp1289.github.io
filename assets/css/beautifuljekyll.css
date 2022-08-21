@@ -13,7 +13,6 @@ html {
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.25rem;
-  width: 900px;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -45,7 +44,7 @@ h4 {
   font-size: 1.0 rem;
 }
 h1, h2, h3, h4 {
-  margin-top: 0rem;
+  margin: auto;
   width: 900px;
 }
 a {
@@ -479,6 +478,7 @@ footer .footer-custom-content {
 
 .post-preview {
   width: 900px;
+  margin: auto;
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
@@ -489,6 +489,7 @@ footer .footer-custom-content {
   .post-preview {
     padding: 2.1875rem 0;
     width: 900px;
+    margin: auto;
   }
 }
 
@@ -529,7 +530,7 @@ footer .footer-custom-content {
 .post-heading .post-meta {
   display: inline-block;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .post-heading .post-meta {
     display: block;
     margin-bottom: 0;
@@ -579,7 +580,7 @@ footer .footer-custom-content {
   max-width: 6.25rem;
   max-height: 6.25rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .post-preview .post-image {
     display: none;
   }
@@ -671,6 +672,7 @@ footer .footer-custom-content {
   margin: 5rem 0 1.25rem;
   position: relative;
   width: 900px;
+  margin: auto;
 
 }
 .intro-header.big-img {
@@ -758,6 +760,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header {
     margin-top: 8.125rem;
     width: 900px;
+    margin: auto;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -772,6 +775,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header .post-heading h1 {
     font-size: 2rem;
     width: 900px;
+    margin: auto;
   }
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
