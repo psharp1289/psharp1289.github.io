@@ -24,9 +24,11 @@ author: Paul B. Sharp
 navbar-links:
   Home: "psharp1289.github.io"
   About Me: "aboutme"
-  Research: "research" 
+  Research: "research"
+  Projects:
+    - Bayesian Stats: "bayes"
+    - Efficient Planning: "models" 
   Bayes: "bayes"   
-  Twitter: "https://twitter.com/paul_b_sharp"
 
 ################
 # --- Logo --- #
