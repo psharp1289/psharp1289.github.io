@@ -45,7 +45,6 @@ h4 {
 }
 h1, h2, h3, h4 {
   margin-top: 5 rem;
-  width: 900px;
 }
 a {
   color: {{ site.link-col | default: "#008AFF" }};
@@ -673,6 +672,7 @@ footer .footer-custom-content {
 .intro-header {
   margin: 5rem 0 1.25rem;
   position: relative;
+  align-content: center;
 
 }
 .intro-header.big-img {
@@ -727,6 +727,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   line-height: 1.1;
   display: block;
   text-align: center;
+  align-content: center;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
@@ -771,11 +772,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   }
   .intro-header .page-heading h1 {
     font-size: 2.5rem;
+    align-content: center;
   }
   .intro-header .post-heading h1 {
     font-size: 2rem;
     width: 900px;
     margin-top: 5 rem;
+    align-content: center;
   }
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
