@@ -30,15 +30,17 @@ common-js:
 
   {% include gtm_body.html %}
 
+
+
   {% include nav.html %}
+  <div class=main-container>
+    <aside class="sidebar">
+      <span class= "Inner-text">Sidebar</span>
+    </aside>
 
-  <div class="with-sidebar">
-  <div><!-- non-sidebar --></div>
-  <div><!-- sidebar --></div>
-  </div>
-
-  {{ content }}
-
+    {{ content }}
+    
+  <div>
   {% include footer.html %}
 
   {% include footer-scripts.html %}
