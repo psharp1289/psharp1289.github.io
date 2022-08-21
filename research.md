@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-# Computations of planning and worry 
+## Computations of planning and worry 
 
 My research program has been devoted to understanding the computational mechanisms that give rise to how humans plan, and how this goes awry in states of worry. In my 10+ years of independent research, I have degrees spanning clinical psychology, developmental neuroscience, and computational cognitive science.
 
