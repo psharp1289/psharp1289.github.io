@@ -15,13 +15,15 @@ body {
   font-size: 1.25rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
-  text-align: center;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-attachment: fixed;
   {% endif %}
   overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 p {
   line-height: 1;
