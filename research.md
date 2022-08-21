@@ -3,11 +3,11 @@ layout: page
 title: Research
 ---
 
-## Computations of planning and worry 
+## Algorithms of learning and planning
 
-My research program has been devoted to understanding the computational mechanisms that give rise to how humans plan, and how this goes awry in states of worry. In my 10+ years of independent research, I have degrees spanning clinical psychology, developmental neuroscience, and computational cognitive science.
+My research programs seeks to understand the algorithms by which intelligent agents learn and plan, and how these essential functions go awry in human worry. I leverage a deep reinforcement learning framework to develop algorithmic accounts of learning and planning. In my over 10 years of independent research, I have developed expertise in clinical psychology, cognitive science, and computational neuroscience. 
 
-### Key Scientific Publications
+### Scientific Publications
 
 - Sharp PB, Russek, E., Huys, Q., Dolan RJ, Eldar E. Humans perseverate on punishment avoidance goals in multigoal
 reinforcement learning. (2022). eLife.
