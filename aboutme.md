@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-<img src="assets/img/me.jpg" class="img-about" alt=""/>
+<img src="assets/img/me.jpg"/>
 
 ## Data Scientist
 

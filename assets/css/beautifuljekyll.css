@@ -118,7 +118,7 @@ img {
   margin-top: 1.875rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .disqus-comments {
     margin-top: 2.5rem;
   }
@@ -453,7 +453,7 @@ footer .footer-custom-content {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   footer {
     padding: 3.125rem 0;
   }
@@ -481,7 +481,7 @@ footer .footer-custom-content {
   font-size: 1.25rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .post-preview {
     padding: 2.1875rem 0;
   }
@@ -587,7 +587,7 @@ footer .footer-custom-content {
   font-weight: 600;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .post-preview .post-title {
     font-size: 2rem;
   }
@@ -630,7 +630,7 @@ footer .footer-custom-content {
   margin-bottom: 0;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .post-preview .blog-tags {
     margin-top: 0.625rem;
   }
@@ -827,7 +827,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin-left: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .pagination.blog-pager {
     margin-top: 0.625rem;
   }
@@ -844,7 +844,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   border-radius: 0;
   color: {{ site.text-col | default: "#404040" }};
 }
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .pagination .page-item .page-link {
     padding: 0.9375rem 1.5625rem;
   }
