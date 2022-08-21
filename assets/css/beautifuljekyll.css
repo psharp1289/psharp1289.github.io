@@ -44,7 +44,8 @@ h4 {
   font-size: 1.0 rem;
 }
 h1, h2, h3, h4 {
-  margin: auto;
+  margin-top: 5 rem;
+  align-content: center;
   width: 900px;
 }
 a {
@@ -105,8 +106,10 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 75%;
+  max-height: 75%;
+  align-content: center;
+  margin-top: 5rem;
 }
 
 .linked-section {
@@ -478,8 +481,8 @@ footer .footer-custom-content {
 
 .post-preview {
   width: 900px;
-  margin: auto;
-  padding: 1.25rem 0;
+  align-content: center;
+  padding: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
   font-size: 1.25rem;
@@ -489,7 +492,7 @@ footer .footer-custom-content {
   .post-preview {
     padding: 2.1875rem 0;
     width: 900px;
-    margin: auto;
+    align-content: center;
   }
 }
 
@@ -672,7 +675,6 @@ footer .footer-custom-content {
   margin: 5rem 0 1.25rem;
   position: relative;
   width: 900px;
-  margin: auto;
 
 }
 .intro-header.big-img {
@@ -760,7 +762,6 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header {
     margin-top: 8.125rem;
     width: 900px;
-    margin: auto;
   }
   .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
@@ -775,7 +776,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header .post-heading h1 {
     font-size: 2rem;
     width: 900px;
-    margin: auto;
+    margin-top: 5 rem;
+    align-content: center;
   }
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
