@@ -480,7 +480,7 @@ footer .footer-custom-content {
 .post-preview {
   width: 100%;
   wative;
-  margin-top: 0.65rem;
+  margin-top: 0.95rem;
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
@@ -527,9 +527,9 @@ footer .footer-custom-content {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 1rem;
+  font-size: 0rem;
   font-style: normal;
-  margin-top: 0.5;
+  margin-top: 0;
   font-family: 'Lora', 'Times New Roman', serif;
 }
 .post-heading .post-meta {
