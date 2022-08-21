@@ -1,4 +1,12 @@
-# Load data
+## Predecessor Representation for Efficient Backwards Planning
+
+We developed a reinforcement learning revaluation task to infer whether and how humans use a novel backwards planning algorithm we term a "Predecessor Representation" (PR). We use pilot data and computational simulations to inform our a priori hypothesis that humans use a PR in a divergent state space. 
+
+### Study information
+
+Little work in RL-based studies of planning has formalized algorithms for backwards planning and their advantages over algorithms for forwards planning. Prior work in experimental psychology, however, has demonstrated humans have a general bias towards backwards planning (Park, Lu & Hedgcock, 2017, Psychological Science). The present study will investigate whether humans utilize an efficient form of backwards planning that we term a predecessor representation (PR). Like a successor representation (SR), a predecessor representation encodes long-run expectations of state occupancies given current states and actions taken. However, unlike a successor representation which predicts future state occupancies, a predecessor representation predicts past state occupancies. In the present study, we use simulations of the conditions under which PR-based planning would lead to better outcomes than SR-based planning or even more complex model-based (MB) planning, to develop a task to test whether individuals utilize PR-based planning. These simulations are explained in greater depth in an extended abstract we presented at the Reinforcement Learning and Decision Making Conference (2022; see paper attached describing the PR and SR algorithms, as well as our pilot data and simulations). To demonstrate the likelihood that our predictions will be observed in our preregistered study, we describe below pilot data from three small-n studies and one large study (n=111) supporting our main hypothesis that individuals do indeed use PR-based planning, as well as the details of the planning task, our hypothesis, and the methods used to analyze the data we plan to collect. See the full details of our preregistration here: https://osf.io/s286z/
+
+### Load data
 
 
 ```python
@@ -38,7 +46,7 @@ print('ROPE of PR EVIDENCE: {}'.format(0.1*df['PR Evidence'].std()))
     ROPE of PR EVIDENCE: 0.01829522881014056
 
 
-# Fit Model for Hypothesis 1: Evidence for PR-based Planning
+### Fit Model for Hypothesis 1: Evidence for PR-based Planning
 
 Below we fit the beta-binomial described in text to choice data for Variable 1, which defines the number of times participants chose in line with PR-based planning. If omega, the mode of the group distribution, is estimated to be significantly greater than 0.5 (no evidence of PR-based planning), then we conclude evidence for our main hypothesis.
 
@@ -63,7 +71,7 @@ with hierarchical_model:
     trace_main = pm.sample(draws=4000, target_accept=0.99,init='adapt_diag')
 ```
 
-## Posterior distribution for group-level tendency to choose in line with PR-based planning
+#### Posterior distribution for group-level tendency to choose in line with PR-based planning
 
 As you see below, the parameter omega defining the group-level tendency to choose in line with PR-based planning was significantly greater than the null value of 0.5. Specifically, the posterior highest density interval does not contain any values in the pre-defined region of practical equivalence, defining values similar-enough to 0.5 to be considered null effect sizes. 
 
@@ -89,7 +97,7 @@ plt.show()
 {: refdef}    
 
 
-# Fit model for manipulation check 1: Bias for distal reward?
+### Fit model for manipulation check 1: Bias for distal reward?
 
 
 ```python
@@ -108,7 +116,7 @@ with hierarchical_model:
     trace_distal = pm.sample(draws=4000, target_accept=0.99,init='adapt_diag')
 ```
 
-## Plot posterior for omega: The highest-density interval (black line) in the posterior does not include 0.3 or 0.7. 
+#### Plot posterior for omega: The highest-density interval (black line) in the posterior does not include 0.3 or 0.7. 
 
 Manipulation check passed!
 
@@ -133,7 +141,7 @@ plt.show()
     
 
 
-# Fit model for manipulation check 2: Bias for left-wards action?
+### Fit model for manipulation check 2: Bias for left-wards action?
 
 
 ```python
@@ -152,7 +160,7 @@ with hierarchical_model:
     trace_action = pm.sample(draws=4000, target_accept=0.99,init='adapt_diag')
 ```
 
-## Plot posterior for omega: The highest-density interval (black line) in the posterior does not include 0.3 or 0.7. 
+#### Plot posterior for omega: The highest-density interval (black line) in the posterior does not include 0.3 or 0.7. 
 
 Manipulation check passed!
 
@@ -176,7 +184,7 @@ plt.show()
 {: refdef}
     
 
-# Bayesian power analysis (e.g., Kruschke, 2014)
+### Bayesian power analysis (e.g., Kruschke, 2014)
 
 1. Sample random indices from each parameter distribution for sample size n=111
     a. once for group-level distributions, 111 times for individual-level distributions
@@ -221,7 +229,7 @@ for i in range(300): # fit model 300 times
 bayesian_power=successes/num_iterations
 ```
 
-# Transition and Reward Revaluation: Load and visualize data
+### Transition and Reward Revaluation: Load and visualize data
 
 
 ```python
@@ -260,7 +268,7 @@ cost_RR=1-df['choice_rwd_reval']
 effect_TR=cost_TR-cost_RR #subtract cost of reward reval from cost of transition revaluation
 ```
 
-## Fit model to determine if the cost of transition revaluation is significantly greater than the effect of reward evaluation
+### Fit model to determine if the cost of transition revaluation is significantly greater than the effect of reward evaluation
 
 
 ```python
