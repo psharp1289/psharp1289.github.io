@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 1.05rem;
+  font-size: 1.00rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -208,7 +208,7 @@ img {
 
 .navbar-custom .navbar-nav .nav-item {
   text-transform: lowercase;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
   letter-spacing: 0.0625rem;
 }
 
@@ -484,7 +484,7 @@ footer .footer-custom-content {
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
-  font-size: 1.25rem;
+  font-size: 1.00rem;
   align-items: center;
 }
 
@@ -519,11 +519,10 @@ footer .footer-custom-content {
   margin-top: 2rem;
 }
 .post-preview .post-subtitle {
-  margin: 0;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.75rem;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
