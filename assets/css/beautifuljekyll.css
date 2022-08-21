@@ -442,18 +442,17 @@ footer a:focus {
 
 footer .list-inline {
   margin: 0;
-  padding: 0;
-  margin-bottom: 0rem;
+  padding: 10rem;
+ margin: auto;
 }
 footer .copyright {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: auto;
 }
 footer .theme-by {
   text-align: center;
-  margin: 1rem 0 0;
+  margin: auto;
 }
 footer .footer-custom-content {
   text-align: center;
@@ -480,10 +479,13 @@ footer .footer-custom-content {
 /* --- Post preview (feed) --- */
 
 .posts-list {
-    margin: 0;
+    margin: auto;
+    display: flex;
 }
 
 .post-preview {
+  margin: auto;
+  display: flex;
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
