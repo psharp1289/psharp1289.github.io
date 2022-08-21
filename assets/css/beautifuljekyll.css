@@ -479,29 +479,33 @@ footer .footer-custom-content {
 }
 
 .post-preview {
-  width: 1000px;
-  /* Center horizontally*/
-  margin: 0 auto;
-  position: absolute;
+  width: 1200px;
+  position: relative;
   padding-top: 2.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
   font-size: 1.25rem;
+  align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .post-preview {
     padding: 2.1875rem 0;
-    width: 100%
-    /* Center horizontally*/
-    margin: 0 auto;
+    width: 1200px;
+
   }
 }
 
 .post-preview:last-child {
   border-bottom: 0;
+
+  width: 1000px;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1000px 0 0 -1000px; /* Apply negative top and left margins to truly center the element */
   /* Center horizontally*/
-  margin: 0 auto;
   position: absolute;
 }
 
