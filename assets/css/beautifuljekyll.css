@@ -45,7 +45,6 @@ h4 {
 }
 h1, h2, h3, h4 {
   margin-top: 5 rem;
-  align-content: center;
   width: 900px;
 }
 a {
@@ -675,6 +674,7 @@ footer .footer-custom-content {
   margin: 5rem 0 1.25rem;
   position: relative;
   width: 900px;
+  text-align: center;
 
 }
 .intro-header.big-img {
@@ -777,7 +777,6 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     font-size: 2rem;
     width: 900px;
     margin-top: 5 rem;
-    align-content: center;
   }
   .intro-header.big-img .img-desc {
     font-size: 0.875rem;
