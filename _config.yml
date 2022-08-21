@@ -25,8 +25,8 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Projects:
-    - Bayesian Stats: "bayes"
-    - Efficient Planning: "models" 
+    - Backwards Planning: "models"
+    - Bayesian Stats: "bayes" 
   Home: "psharp1289.github.io"
 
 ################

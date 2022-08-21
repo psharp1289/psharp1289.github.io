@@ -1,6 +1,8 @@
-## Predecessor Representation for Efficient Backwards Planning
+---
+layout: page
+title: Predecessor Representation for Efficient Backwards Planning
 
-We developed a reinforcement learning revaluation task to infer whether and how humans use a novel backwards planning algorithm we term a "Predecessor Representation" (PR). We use pilot data and computational simulations to inform our a priori hypothesis that humans use a PR in a divergent state space. 
+---
 
 ### Study information
 
@@ -93,7 +95,7 @@ plt.show()
 
     
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/omega_PRevidence_posterior_betabinomial.png){:height="400px" width="400px"}. 
+![mypic](assets/img/omega_PRevidence_posterior_betabinomial.png). 
 {: refdef}    
 
 
@@ -136,7 +138,7 @@ plt.show()
 ```
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/omega_posterior_distalbias_betabinomial.png){:height="400px" width="400px"}. 
+![mypic](assets/img/omega_posterior_distalbias_betabinomial.png). 
 {: refdef}
     
 
@@ -180,7 +182,7 @@ plt.show()
 ```
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/omega_posterior_actionbias_betabinomial.png){:height="400px" width="400px"}. 
+![mypic](assets/img/omega_posterior_actionbias_betabinomial.png). 
 {: refdef}
     
 
@@ -304,7 +306,7 @@ plt.show()
 ```
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/effect_TR.png){:height="400px" width="400px"}. 
+![mypic](assets/img/effect_TR.png). 
 {: refdef}
     
 
