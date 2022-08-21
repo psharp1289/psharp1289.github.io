@@ -35,7 +35,7 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
 }
 h3 {
   font-size: 1.0rem;
@@ -127,9 +127,12 @@ img {
 
 /* --- Sidebar --- */
 
-.main-container{
-  display: flex;
-  min-height: calc(100vh - 50px);
+.img-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .sidebar {
@@ -140,15 +143,7 @@ img {
   min-height: calc(100vh - 50px);
 }
 
-.content{
-flex-grow: 1;
-display: flex;
-}
 
-.inner-text{
-  font-size: 1.5rem;
-  margin: auto;
-}
 
 /* --- Navbar --- */
 
@@ -483,6 +478,7 @@ footer .footer-custom-content {
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   overflow: hidden;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {

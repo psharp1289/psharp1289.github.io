@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-<img src="https://drive.google.com/file/d/1rk4DUXNORO5OgtvdY3wJOYasxeYGRNAg/view?usp=sharing" width="200" height="200"/>
+<img src="assets/img/me.jpg" class="img-about" alt=""/>
 
 ## Data Scientist
 
