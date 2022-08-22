@@ -79,7 +79,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Paul B Sharp's website
 
 ###########################
 # --- General options --- #
@@ -94,7 +94,7 @@ share-links-active:
 url-pretty: "psharp1289.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 60
+excerpt_length: 65
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
