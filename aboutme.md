@@ -5,27 +5,19 @@ cover-img: /assets/img/me_cover.jpg
 ---
 
 ## Data Scientist
-
 Trained as a computational cognitive scientist, I develop reinforcement learning and deep neural network algorithms to understand how humans and machines learn and plan. I seek to apply these methods in various ways, including basic research on how intelligent agents learn and plan, as well as applied problems that can use deep reinforcement learning for prediction and optimization.
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/me.jpg){:height="400px" width="600px"}. 
+![mypic](assets/img/headshot.png){:height="400px" width="400px"}. 
 {: refdef}
 
 ## Education and Work Experience
-
-Fulbright Fellowship Post-Doctoral Research Scholar, Hebrew University, Computational Cognition Lab
-- 2021 - Present
-
-Research Fellow, Max Planck Centre for Computational Psychiatry, University College London
-- 2019-2021
-
-Ph.D., Psychology and Neuroscience, University of North Carolina at Chapel Hill
-- 2016-2019
+- Fulbright Fellowship Post-Doctoral Research Scholar, Hebrew University, Computational Cognition Lab, 2021 - Present.
+- Research Fellow, Max Planck Centre for Computational Psychiatry, University College London, 2019-2021.
+- Ph.D., Psychology and Neuroscience, University of North Carolina at Chapel Hill, 2016-2019.
 
 
 ## Skills
-
 - Python Programming 
 	- [Computational modelling](https://github.com/psharp1289/multigoal_RL)
 - Machine Learning 
