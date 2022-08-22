@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+big-img: "assets/img/maze.jpg"
 ---
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/me.jpg){:height="300px" width="400px"}. 
