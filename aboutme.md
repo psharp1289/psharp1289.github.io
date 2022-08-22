@@ -5,10 +5,10 @@ cover-img: /assets/img/me_cover.jpg
 ---
 
 ## Data Scientist
-Trained as a computational cognitive scientist, I develop reinforcement learning and deep neural network algorithms to understand how humans and machines learn and plan. I seek to apply these methods in various ways, including basic research on how intelligent agents learn and plan, as well as applied problems that can use deep reinforcement learning for prediction and optimization.
+I develop reinforcement learning and deep neural network algorithms to understand how humans and machines learn and plan. I seek to apply these methods in various ways, including basic research on how intelligent agents learn and plan, as well as applied problems that can use deep reinforcement learning for prediction and optimization.
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/headshot.png){:height="400px" width="400px"}. 
+![mypic](assets/img/headshot.png){:height="400px" width="500px"}. 
 {: refdef}
 
 ## Education and Work Experience
