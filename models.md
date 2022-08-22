@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Predecessor Representation for Efficient Backwards Planning
-cover-img: /assets/img/pr_cover.jpg
+cover-img: /assets/img/pr_cover.png
 ---
 
 ## Project description
