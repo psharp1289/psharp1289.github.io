@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Humans rapidly infer when to initiate planning
+cover-img: /assets/img/initiate_cover.jpg
 ---
 
 ## Study synopsis
