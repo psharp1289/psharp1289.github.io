@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How we infer when to plan
+title: How we infer when to start planning
 cover-img: /assets/img/initiate_cover.png
 ---
 
