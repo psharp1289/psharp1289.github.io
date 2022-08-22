@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Humans rapidly infer when to initiate planning
+title: How we infer when to plan
 cover-img: /assets/img/initiate_cover.png
 ---
 
