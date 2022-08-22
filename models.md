@@ -53,7 +53,7 @@ with hierarchical_model:
     trace_main = pm.sample(draws=4000, target_accept=0.99,init='adapt_diag')
 ```
 
-### Posterior distribution for group-level tendency to choose in line with PR-based planning
+## Posterior distribution for group-level tendency to choose in line with PR-based planning
 
 As you see below, the parameter omega defining the group-level tendency to choose in line with PR-based planning was significantly greater than the null value of 0.5. Specifically, the posterior highest density interval does not contain any values in the pre-defined region of practical equivalence, defining values similar-enough to 0.5 to be considered null effect sizes. 
     

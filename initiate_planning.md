@@ -33,7 +33,7 @@ For each of the 4 decisions a participant faced during a planning trial, they we
 ![mypic](assets/img/perfect_4step.png). 
 {: refdef}
 
-## Participants fail to delay planning under time pressure
+## Failure to delay planning under time pressure
 
 Remarkably, when participants were under time pressure, which in our task meant that the longer the took the less points they could get, they failed to delay planning when they should.
 
@@ -43,13 +43,13 @@ Remarkably, when participants were under time pressure, which in our task meant 
 
 ## Worriers fail to plan under time pressure
 
-Perhaps even more interesting, for subjects the reported they worried frequently, they failed to plan successfully at all under these stressful conditions.
+Perhaps even more interesting, for subjects the reported they worried frequently, they failed to plan successfully at all under these stressful conditions. Here we measured if participants arrived at the instructed goal.
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/worriers_fail.png). 
 {: refdef}
 
-## Humans rapidly infer to initiate planning
+## Humans infer when to start planning
 
 When we removed the intense time pressure, we saw individuals in general infer when to delay planning
 
@@ -65,15 +65,15 @@ We found that participants who failed to delay planning when they should, howeve
 ![mypic](assets/img/3step_task.png). 
 {: refdef}
 
-## Participants infer when to initiate planning
+## Again they infer when to start planning
 
 Again participants inferred when to initiate planning. Here you see they average behavior resembles the optimal prediction for planning intiation time. 
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/3step_task.png). 
+![mypic](assets/img/success_3step.png). 
 {: refdef}
 
-## The inference to intiate planning is *rapid*
+## Inference to intiate planning is *rapid*
 
 We inspected how particiapnts delayed control for each goal over time, since they had 20 opportunities to plan for each possible goal. Note, for most particiapnts, their decision to initiate planning at a given timepoint does not change that much over these 20 trials. This suggests humans can **rapidly** infer when to initiate planning. What you see below is every subject that successfully delayed planning (60% of subjects) performance on the task as a function of both the goal depth, and time (number of trials).
 
@@ -81,7 +81,7 @@ We inspected how particiapnts delayed control for each goal over time, since the
 ![mypic](assets/img/all_subjects_whodelayed.png). 
 {: refdef}
 
-## Delayed control corresponds to delayed planning
+## Delayed control = delayed planning
 
 A large potential confound in the study is that when participants gave up control at certain early decisions, they didn't **actually delay their planning**. To show this, we need evidence that participants indeed had greater reaction times at the decision point where they had to start planning, since planning takes time! To estimate whether this occurred, we modelled participants' reaction time as a function of several causes of more or less reaction time. Specifically, we used a hierarchical Bayesian regression to explain RT as a function of the following variables. Note below, variable 1 test our main hypothesis that subjects in fact delayed planning:
 
@@ -100,7 +100,7 @@ As you can see, Variable 1 was highly significant in the predicted direction. Th
 
 ## Chronic worry is associated with impaired inference to delay planning 
 
-A motivating clinical hypothesis that we investigated is whether individuals that worry frequently over-use planning. Intuitively we know such individuals are constantly planning how to avoid dangerous futures even when it isn't helpful to do so. We indeed show here for the first time that the more one worriers, the worse one is at delaying planning. We created a continuous score on the y-axis which measures if participants delayed control when they should and engaged control when they should. Importantly this replicates a correlation we found above in the more complicated 4-decision task.
+A motivating clinical hypothesis that we investigated is whether individuals that worry frequently over-use planning. Intuitively we know such individuals are constantly planning how to avoid dangerous futures even when it isn't helpful to do so. We indeed show here for the first time that the more one worriers, the worse one is at delaying planning. We created a continuous score on the y-axis which measures if participants delayed control when they should and engaged control when they should. Importantly this replicates a correlation we found above in the more complicated 4-decision task. The correlation specifically is -0.659.
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/worry_correlation.png). 
