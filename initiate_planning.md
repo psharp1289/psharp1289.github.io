@@ -5,7 +5,7 @@ title: Humans rapidly infer when to initiate planning
 
 ## Study synopsis
 
-The purpose of the following study was to design a cognitive task with optimal starting points for planning. Participants learned the cognitive map below by being randomly insterted into a specific image (e.g., car) and being instructed to take a specific action. This action deterministically transition them to a subsequent image, reflected in the black arrows below. Participants learned these 1-step transitions and were quizzed on them. They were told they could then use this knowledge to plan and win money in a later phase of the task. 
+The purpose of the following study was to design a cognitive task with optimal starting points for planning. Participants learned the cognitive map below by being randomly insterted into a specific image (e.g., car) and being instructed to take a specific action. This action deterministically transition them to a subsequent image, reflected in the black arrows below. Participants learned these 1-step transitions and were quizzed on them. They were told they could then use this knowledge to plan and win money in a later phase of the task. Note, these studies are pilot studies (Study 1 with time pressure n=14; Study 2 without time pressure n=16; Study 3 n=10).
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/4steptask.png). 

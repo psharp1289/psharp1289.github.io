@@ -13,6 +13,7 @@ html {
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1rem;
+  line-height: 1.35;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -178,7 +179,7 @@ img {
   line-height: 1.25;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 1.0rem;
+  font-size: 1.10rem;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -414,8 +415,9 @@ img {
 footer {
   padding: 1.875rem 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 3.125rem;
+  margin-top: 2.125rem;
   font-size: 0.875rem;
+  position:  absolute;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
@@ -548,8 +550,8 @@ footer .footer-custom-content {
 .post-preview .post-image {
   float: right;
   margin-left: 0.625rem;
-  height: 12rem;
-  width: 12rem;
+  height: 24rem;
+  width: 24rem;
 }
 .post-preview .post-image {
   filter: grayscale(40%);
@@ -567,8 +569,8 @@ footer .footer-custom-content {
 }
 @media (max-width: 1000px) {
   .post-preview .post-image {
-    height: 12rem;
-    width: 12rem;
+    height: 24rem;
+    width: 24rem;
   }
   .post-preview .post-image-short {
     margin-top: 0;
