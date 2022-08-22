@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Humans rapidly infer when to initiate planning
-subtitle: The computations of planning meta-control
+subtitle: How we meta-plan
 tags: [Reinforcement learning, planning, worry]
 comments: true
 thumbnail-img: "assets/img/tophat.png"

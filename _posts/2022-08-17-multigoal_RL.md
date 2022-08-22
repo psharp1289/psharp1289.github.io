@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goal mismanagement in reinforcement learning
-subtitle: Sharp (2022) published in eLife
+subtitle: Sharp (2022) <em>eLife</em>
 tags: [reinforcement learning, multi-tasking]
 comments: true
 thumbnail-img: "assets/img/multigoal_task.png"
