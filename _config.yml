@@ -27,7 +27,6 @@ navbar-links:
   Projects:
     - Initiate Planning: "initiate_planning"
     - Backwards Planning: "models"
-    - Bayesian Stats: "bayes" 
   Home: "psharp1289.github.io"
 
 ################
