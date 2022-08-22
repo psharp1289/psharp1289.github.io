@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Predecessor Representation for Efficient Backwards Planning
-
 ---
 
 ## Project description
 
-Little work in RL-based studies of planning has formalized algorithms for backwards planning and their advantages over algorithms for forwards planning. Prior work in experimental psychology, however, has demonstrated humans have a general bias towards backwards planning (Park, Lu & Hedgcock, 2017, Psychological Science). The present study will investigate whether humans utilize an efficient form of backwards planning that we term a predecessor representation (PR). Like a successor representation (SR), a predecessor representation encodes long-run expectations of state occupancies given current states and actions taken. However, unlike a successor representation which predicts future state occupancies, a predecessor representation predicts past state occupancies. In the present study, we use simulations of the conditions under which PR-based planning would lead to better outcomes than SR-based planning or even more complex model-based (MB) planning, to develop a task to test whether individuals utilize PR-based planning. To demonstrate the likelihood that our predictions will be observed in our preregistered study, we describe below pilot data fa large study (n=111) supporting our main hypothesis that individuals do indeed use PR-based planning, as well as the details of the planning task, our hypothesis, and the methods used to analyze the data we plan to collect. See the full details of our preregistration here: [OSF Repository](https://osf.io/s286z/)
+Little work in RL-based studies of planning has formalized algorithms for backwards planning and their advantages over algorithms for forwards planning. Prior work in experimental psychology, however, has demonstrated humans have a general bias towards backwards planning (Park, Lu & Hedgcock, 2017, Psychological Science). The present study will investigate whether humans utilize an efficient form of backwards planning that we term a predecessor representation (PR). Like a successor representation (SR), a predecessor representation encodes long-run expectations of state occupancies given current states and actions taken. However, unlike a successor representation which predicts future state occupancies, a predecessor representation predicts past state occupancies. In the present study, we use simulations of the conditions under which PR-based planning would lead to better outcomes than SR-based planning or even more complex model-based (MB) planning, to develop a task to test whether individuals utilize PR-based planning. Below, I describe below pilot data (n=111) supporting our main hypothesis that individuals do indeed use PR-based planning, as well as the details of the planning task, our hypothesis, and the methods used to analyze the data we plan to collect. For the full details of our preregistration, see here: [OSF Repository](https://osf.io/s286z/)
 
-    
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/task_PR.png). 
 {: refdef} 
@@ -81,7 +79,7 @@ We fit the same beta-binomial hierarchical model described to model evidence for
 ![mypic](assets/img/omega_posterior_actionbias_betabinomial.png). 
 {: refdef}
 
-### Fit model to determine if the cost of transition revaluation is significantly greater than the effect of reward evaluation
+## Fit model to determine if the cost of transition revaluation is significantly greater than the effect of reward evaluation
 
 One additional test is necessary to support our main hypothesis, specifically, to show that there is only partial evidence of MB use, substantially less than what would be expected under the hypothesis that subjects only employ MB, implicating a hybrid use of backwards-MB and PR (similar to previous report of hybrid use of SR and forwards-MB; Momennejad et al., 2017). To test this, we examine whether the cost of transition revaluation (specifically, the difference between planning accuracy after transition revaluation and planning accuracy during the preceding reward revaluation), which MB agents can successfully handle, is greater than an upper bound estimate of the cost of reward revaluation (specifically, the difference between optimal planning accuracy – 100% – and planning accuracy during reward revaluation), which PR and MB agents can successfully handle.
 
