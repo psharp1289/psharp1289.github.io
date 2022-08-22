@@ -12,6 +12,17 @@ Trained as a computational cognitive scientist, I develop reinforcement learning
 ![mypic](assets/img/me.jpg){:height="400px" width="600px"}. 
 {: refdef}
 
+## Education and Work Experience
+
+Fulbright Fellowship Post-Doctoral Research Scholar, Hebrew University, Computational Cognition Lab
+- 2021 - Present
+
+Research Fellow, Max Planck Centre for Computational Psychiatry, University College London
+- 2019-2021
+
+Ph.D., Psychology and Neuroscience, University of North Carolina at Chapel Hill
+- 2016-2019
+
 
 ## Skills
 
