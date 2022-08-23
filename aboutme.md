@@ -8,7 +8,7 @@ cover-img: /assets/img/me_cover.jpg
 I develop reinforcement learning and deep neural network algorithms to understand how humans and machines learn and plan. I seek to apply these methods in various ways, including basic research on how intelligent agents learn and plan, as well as applied problems that can use deep reinforcement learning for prediction and optimization.
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/headshot.png){:height="400px" width="500px"}. 
+![mypic](assets/img/headshot.png). 
 {: refdef}
 
 ## Education and Work Experience
