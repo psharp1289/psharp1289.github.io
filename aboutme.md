@@ -27,7 +27,7 @@ I develop reinforcement learning and deep neural network algorithms to understan
 - Scientific writing, experimental design, computational modelling
 	- [Google Scholar profile](https://scholar.google.com/citations?user=KXU4cS8AAAAJ&hl=en)
 - Neuroimaging implementation and software development
-	-[Diffusion MRI Connectome Pipeline](https://github.com/psharp1289/StructuralConnFSL)
+	- [Diffusion MRI Connectome Pipeline](https://github.com/psharp1289/StructuralConnFSL)
 
 
 
