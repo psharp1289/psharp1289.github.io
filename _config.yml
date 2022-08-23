@@ -28,7 +28,7 @@ navbar-links:
   Projects:
     - Initiate Planning: "initiate_planning"
     - Backwards Planning: "models"
-  Teaching: "teaching"
+  Mentoring: "mentoring"
   
 
 ################

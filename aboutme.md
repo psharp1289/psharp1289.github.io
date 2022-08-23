@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About Me
 cover-img: /assets/img/me_cover.jpg
 ---
 
