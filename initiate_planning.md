@@ -52,7 +52,7 @@ Perhaps even more interesting, for subjects the reported they worried frequently
 
 ## Humans infer when to start planning
 
-When we removed the intense time pressure, we saw individuals in general infer when to delay planning
+When we removed time pressure, we saw individuals in general successfully inferred when to initiate planning.
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/success_4step.png). 
@@ -68,7 +68,7 @@ We found that participants who failed to delay planning when they should, howeve
 
 ## Again they infer when to start planning
 
-Again participants inferred when to initiate planning. Here you see they average behavior resembles the optimal prediction for planning intiation time. 
+Again participants inferred when to initiate planning. Below you see the average behavior, which resembles closely predictions for when subjects should intiation planning. 
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/success_3step.png). 
@@ -79,7 +79,7 @@ Again participants inferred when to initiate planning. Here you see they average
 We inspected how particiapnts delayed control for each goal over time, since they had 20 opportunities to plan for each possible goal. Note, for most particiapnts, their decision to initiate planning at a given timepoint does not change that much over these 20 trials. This suggests humans can **rapidly** infer when to initiate planning. What you see below is every subject that successfully delayed planning (60% of subjects) performance on the task as a function of both the goal depth, and time (number of trials).
 
 {:refdef: style="text-align: center;"}
-![mypic](assets/img/all_subjects_whodelayed.png). 
+![mypic](assets/img/optimal_delay_subject_goal_time_delay.png). 
 {: refdef}
 
 ## Delayed control = delayed planning
@@ -101,7 +101,7 @@ As you can see, Variable 1 was highly significant in the predicted direction. Th
 
 ## Chronic worry is associated with impaired inference to delay planning 
 
-A motivating clinical hypothesis that we investigated is whether individuals that worry frequently plan too much. Intuitively we know such individuals are constantly planning how to avoid dangerous futures even when it isn't helpful to do so, given how exhausting planning can be. We show here the first experimental evidence that chronic worry is associated with over-planning (specifically, a failure to optimally delaying planning). We created a continuous score, shown on the y-axis of the graph below, which quantifies the degree to which participants delayed control when they should and engaged control when they should. The correlation (*r* = -0.659) replicates a correlation we found above in the more complicated 4-decision task. 
+A motivating clinical hypothesis that we investigated is whether individuals that worry frequently plan too much. Intuitively we know such individuals are constantly planning how to avoid dangerous futures even when it isn't helpful to do so, given how exhausting planning can be. We show here the first experimental evidence that chronic worry is associated with over-planning (specifically, a failure to optimally delaying planning). We created a continuous score, shown on the y-axis of the graph below, which quantifies the degree to which participants delayed control when they should and engaged control when they should. The correlation (*r* = -0.63) replicates a correlation we found above in the more complicated 4-decision task. 
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/worry_correlation.png). 
