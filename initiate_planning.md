@@ -6,7 +6,7 @@ cover-img: /assets/img/initiate_cover.png
 
 ## Study synopsis
 
-The purpose of the following study was to design a cognitive task with optimal starting points for planning in order to model how we infer when to initiate planning. In the task, participants learned the cognitive map displayed below by randomly starting at a specific image (e.g., car) and being instructed to take a specific action (left or right). This action deterministically transition them to a subsequent image, reflected in the black arrows. Participants learned these 1-step transitions and were quizzed on them. They were told they could then use this knowledge to plan and win money in a later phase of the task. Note, all variations of this experiment presented here are pilot studies (Study 1 with time pressure n=14; Study 2 without time pressure n=16; Study 3 n=10).
+The purpose of the following study was to design a cognitive task with optimal starting points for planning in order to model how we infer when to initiate planning. In the task, participants learned the cognitive map displayed below by randomly starting at a specific image (e.g., car) and being instructed to take a specific action (left or right). This action deterministically transitioned them to a subsequent image, reflected in the black arrows. Participants learned these 1-step transitions and were quizzed on them. They were told they could then use this knowledge to plan and win money in a later phase of the task. Note, all variations of this experiment presented here are pilot studies (Study 1 with time pressure n=14; Study 2 without time pressure n=16; Study 3 n=10).
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/4steptask.png). 
@@ -14,7 +14,7 @@ The purpose of the following study was to design a cognitive task with optimal s
 
 ## Planning depth determines when to start planning
 
-Participants were told that they would always start by deciding between the top of the map -- here the trident or the planet. Their decision of which to choose is based on an instructed reward they could plan for. For example, they could be told 400 points is hiding behind the image of the snorkel, and they can use this goal to plan from the very first decision. As you see below, if the reward is at the snorkel, they NEED to start planning from their 1st of 4 decisions, because if they don't choose the trident, they cannot arrive at the snorkel. Therefore, the snorkel has a planning depth of 4, requiring all 4 decisions to be planned out starting from the very first decision. When participants took an action, they saw where they arrived, and could continue executing a plan or initiating a new plan.
+Participants were told that they would always start by deciding between the images at the top of the map -- here the trident or the planet. Their decision was based on an instructed reward they could plan for. For example, they could be told 400 points is hiding behind the image of the snorkel, and they can plan to get to the snorkel from the very first decision. As you see below, if the reward is at the snorkel, they NEED to start planning from their 1st of 4 decisions, because if they don't choose the trident, they cannot arrive at the snorkel. Therefore, the snorkel has a planning depth of 4, requiring all 4 decisions to be planned out starting from the very first decision. When participants took an action, they arrived at a new image determined by the map structure, and could continue executing a plan or initiating a new plan.
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/snorkel.png). 
@@ -28,7 +28,7 @@ Each goal had a different planning depth, such as the tophat which had a plannin
 
 ## How we incentivized delayed planning
 
-For each of the 4 decisions a participant faced during a planning trial, they were given the option to have the computer randomly choose their action for them, which would gift them 100 points. Thus, if they didn't need to plan at a given stage, they could give up control and win points for doing so. The predicted pattern for giving up control successfully inferred when to delay planning is depicted below. **Importantly** because we thought it may take participants a number of trials with a given goal to infer when to initiate planning, we had participants plan for each goal 20 separate times. Goals were instructed in random order. 
+For each of the 4 decisions participants faced during a planning trial, they were given the option to have the computer randomly choose their action for them, which would gift them 100 points. Thus, if they didn't need to plan at a given stage, they could give up control and win points for doing so. The predicted pattern for giving up control optimally, which is based on when you need to initiate planning, is depicted below. As an example, if the planning depth is 3, you should give up control at the very first decision because you only need to plan at the second decision. **Importantly** because we thought it may take participants a number of trials with a given goal to infer when to initiate planning, we had participants plan for each goal 20 separate times. Goals were instructed in random order. 
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/perfect_4step.png). 
@@ -87,10 +87,10 @@ We inspected how particiapnts delayed control for each goal over time, since the
 A large potential confound in the study is that when participants gave up control at certain early decisions, they didn't **actually delay their planning**. To show this, we need evidence that participants indeed had greater reaction times at the decision point where they had to start planning, since planning takes time! To estimate whether this occurred, we modelled participants' reaction time as a function of several causes of more or less reaction time. Specifically, we used a hierarchical Bayesian regression to explain RT as a function of the following variables. Note below, variable 1 test our main hypothesis that subjects in fact delayed planning:
 
 1. Optimally delayed planning (Initiate planning optimally if there’s behavioral evidence they also gave up control at that time).
-2. trial number (learning)
-3. depth of planning for each goal ()
-4. decision point 
-5. goal-switch 
+2. Trial number (people got faster over time, suggesting some form of learning)
+3. Depth of planning for each goal (this ended up not being predictive)
+4. Decision point (more time for first decision)
+5. Goal-switch (more time when switching to a new goal)
 6. Later trials requiring planning (excluding optimal starting points)
 
 As you can see, Variable 1 was highly significant in the predicted direction. The timepoint at which individuals should start planning did indeed have greater reaction time than all other timepoints. 
