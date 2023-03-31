@@ -22,12 +22,14 @@ author: Paul B. Sharp, Ph.D.
 ###############################################
 
 navbar-links:
+  Home: "psharp1289.github.io"
   About Me: "aboutme"
   Research: "research"
   Projects:
     - Initiate Planning: "initiate_planning"
     - Backwards Planning: "models"
-  Home: "psharp1289.github.io"
+  Mentoring: "mentoring"
+  
 
 ################
 # --- Logo --- #
