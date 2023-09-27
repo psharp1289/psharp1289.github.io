@@ -6,7 +6,7 @@ cover-img: /assets/img/me_cover.jpg
 
 ## Computational Cognitive Scientist
 
-I develop computational models, mainly from a reinforcement learning perspective, to understand how humans and machines learn and plan. I am particularly interested in how understanding how humans plan efficiently, and how breakdowns in these mechanisms sheds light on pathological anxiety. 
+I develop computational models from a reinforcement learning perspective to understand how humans learn and plan. I am particularly interested in  understanding how humans plan efficiently, and how breakdowns in these mechanisms shed light on pathological anxiety. 
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/headshot.JPG). 
