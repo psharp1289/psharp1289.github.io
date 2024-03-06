@@ -8,6 +8,9 @@ cover-img: /assets/img/research_cover.jpg
 My research programs seeks to understand the algorithms by which intelligent agents learn and plan, and how these essential functions go awry in human worry. I leverage a reinforcement learning framework to develop algorithmic accounts of learning and planning. I have developed expertise in clinical psychology, cognitive science, and computational neuroscience. 
 
 ## Scientific Publications
+
+- Sharp, PB, Eldar, E. Humans Adaptively Deploy Forward and Backward Prediction. (In Press). Nature Human Behaviour.
+
 - Sharp PB, Russek, E., Huys, Q., Dolan RJ, Eldar E. Humans perseverate on punishment avoidance goals in multigoal
 reinforcement learning. (2022). eLife.
 
