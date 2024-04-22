@@ -1,12 +1,8 @@
 ---
 layout: page
-title: About Me
+title: Lab PI
 cover-img: /assets/img/me_cover.jpg
 ---
-
-## Computational Cognitive Scientist
-
-I develop computational models from a reinforcement learning perspective to understand how humans learn and plan. I am particularly interested in  understanding how humans plan efficiently, and how breakdowns in these mechanisms shed light on pathological anxiety. 
 
 {:refdef: style="text-align: center;"}
 ![mypic](assets/img/headshot.JPG). 
