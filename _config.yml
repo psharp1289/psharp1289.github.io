@@ -9,7 +9,7 @@
 # --- Required options --- #
 ############################
 #add URL
-url: "http://psharp1289.github.io"
+url: "http://sharplab.github.io"
 
 # Name of website
 title: Paul B. Sharp
@@ -22,7 +22,7 @@ author: Paul B. Sharp, Ph.D.
 ###############################################
 
 navbar-links:
-  Home: "psharp1289.github.io"
+  Home: "sharplab.github.io"
   About Me: "aboutme"
   Research: "research"
   Projects:
@@ -92,7 +92,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "psharp1289.github.io"
+url-pretty: "sharplab.github.io"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 65
