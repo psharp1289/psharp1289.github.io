@@ -9,8 +9,8 @@ cover-img: /assets/img/me_cover.jpg
 {: refdef}
 
 ## Education and Work Experience
-- Postdoctoral Fellow, Yale University
-- Fulbright PostDoctoral Fellow, Hebrew University, Computational Cognition Lab, 2021 - Present.
+- Postdoctoral Fellow, Yale University, 2023-2024.
+- Fulbright PostDoctoral Fellow, Hebrew University, Computational Cognition Lab, 2021 - 2023.
 - Research Fellow, Max Planck Centre for Computational Psychiatry, University College London, 2019-2021.
 - Ph.D., Psychology and Neuroscience, University of North Carolina at Chapel Hill, 2016-2019.
 
