@@ -9,6 +9,7 @@ cover-img: /assets/img/me_cover.jpg
 {: refdef}
 
 ## Education and Work Experience
+- Assistant Professor, Bar-Ilan University, 2024.
 - Postdoctoral Fellow, Yale University, 2023-2024.
 - Fulbright PostDoctoral Fellow, Hebrew University, Computational Cognition Lab, 2021 - 2023.
 - Research Fellow, Max Planck Centre for Computational Psychiatry, University College London, 2019-2021.
